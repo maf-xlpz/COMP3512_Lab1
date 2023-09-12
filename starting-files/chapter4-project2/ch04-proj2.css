@@ -2,19 +2,24 @@
 * {
    box-sizing: border-box;
 }
+
 body, section, header, div, p, h1, h2, h3, ul, li {
    margin: 0;
    padding: 0;
 }
+
 body {
    font-family: 'Open Sans', sans-serif;
    box-sizing: border-box;
    background-color: #e4e7eb;
    font-weight: 300;
+   padding: 40px;
 }
+
 header {
    margin-left: 20px;
 }
+
 h1 { 
    text-align: center;
    font-weight: 600;
@@ -22,5 +27,34 @@ h1 {
    padding: 10px 0;
 }
 
-/* add styles here */
+section {
+   width: 910px;
+}
+
+div {
+   display: inline-block;
+   width: 300px;
+}
+
+div.column {
+   background-color: white;
+}
+
+div.columnFeatured {
+   background-color: #2F4F4F;
+}
+
+li {
+   list-style-type: none;
+}
+
+#confidence{
+   background-color: #2F4F4F;
+   width: 910px;
+}
+
+li, #confidence {
+   background-image: "checkmark.svg";
+}
+
 
